@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--langkah satu-->
+
+    <FrameLayout
+        android:id="@+id/frame_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+
+        />
+    <!--langkah 2-->
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btn_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        app:itemTextColor="#fff"
+        app:menu="@menu/nav_buttom"
+
+        />
+    <!--langkah 3 bikin fragment di java-->
+    <!--langkah 4 buat ke xml profile sama list-->
+    <!--langkah 5 bikin di java main activity u/ bikin action di button-->
+</LinearLayout>
