@@ -51,7 +51,7 @@ public class HeroAdapter extends RecyclerView.Adapter<HeroAdapter.ViewHolder> {
         viewHolder.imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(context, "Heroes Name : " + getHeroList().get(position).getHeroName(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Ini Pahlawan  : " + getHeroList().get(position).getHeroName(), Toast.LENGTH_SHORT).show();
             }
 
         });
